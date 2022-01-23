@@ -8,14 +8,14 @@ function cookRiceballs
  int $salt, 
  int $vegetable_oil, 
  string $feedbacks)
-{
-echo "Boil $rice grams of rice normally. Cool and add $egg eggs. 
-    We rub  $cheese grams of cheese on a fine grater. 
-    Adding $salt grams of salt to rice. 
-    Adding grated cheese. 
-    Chop $dill branches of greens and also add to the rice.
-    We form riceballs, bread them in flour.
-    Fry them on both sides in $vegetable_oil milliliters of vegetable oil on both sides.
+{   echo
+   "1. Boil $rice grams of rice normally. Cool and add $egg eggs. 
+    2. We rub  $cheese grams of cheese on a fine grater. 
+    3. Adding $salt grams of salt to rice. 
+    4. Adding grated cheese. 
+    5. Chop $dill branches of greens and also add to the rice.
+    6. We form riceballs, bread them in flour.
+    7. Fry them on both sides in $vegetable_oil milliliters of vegetable oil on both sides.
     Riceballs are ready.
     $feedbacks.";
 }
