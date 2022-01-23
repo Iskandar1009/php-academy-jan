@@ -1,6 +1,6 @@
 <?php
 
-function cook_riceballs(float $rice, int $egg, float $cheese, int $dill, float $salt, float $vegetable_oil, string $feedbacks){
+function cookRiceballs(float $rice, int $egg, float $cheese, int $dill, float $salt, float $vegetable_oil, string $feedbacks){
     echo "Boil ", $rice, " grams of rice normally. Cool and add ", $egg ," eggs. ";
     echo "We rub ", $cheese ," grams of cheese on a fine grater. ";
     echo "Adding ", $salt, " grams of salt to rice. ";
@@ -11,4 +11,4 @@ function cook_riceballs(float $rice, int $egg, float $cheese, int $dill, float $
     echo "Riceballs are ready. ";
     echo $feedbacks, ".";
 }
-cook_riceballs(250.0, 1, 100.0, 3, 30.0, 100.0, "That's grate");
+cookRiceballs(250.0, 1, 100.0, 3, 30.0, 100.0, "That's grate");
