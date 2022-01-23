@@ -11,3 +11,4 @@ function cookRiceballs(float $riceInGrams, int $eggInPieces, float $cheeseInGram
     echo "Riceballs are ready. ";
     echo $feedbacks, ".";
 }
+cookRiceballs(250.0, 1, 100.0, 3, 30.0, 100.0, "That's grate");
